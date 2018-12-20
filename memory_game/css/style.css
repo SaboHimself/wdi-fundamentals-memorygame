@@ -4,48 +4,56 @@ body {
 }
 
 h1 {
-  color: #ffffff;
-  font-family: "Raleway";
+  color: #fff;
+  font-family: Raleway;
   font-weight: 400;
   font-size: 40px;
   letter-spacing: 1px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 h2 {
   color: #0d2c40;
-  font-family: "Raleway";
+  font-family: Raleway;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 a {
-  color: #ffffff;
-  font-family: "Raleway";
+  color: #fff;
+  font-family: Raleway;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1px;
   text-decoration: none;
   margin: 0 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-color: #fff;
 }
 
 p {
   color: #0d2c40;
-  font-family: "Droid Serif";
+  font-family: 'Droid Serif';
   font-size: 18px;
   line-height: 26px;
 }
 
 header {
   background-color: #f15b31;
-  color: #ffffff;
+  color: #fff;
   padding: 30px 20px;
 }
 
 nav {
   background-color: #00a6b3;
-  color: #ffffff;
+  color: #fff;
   padding: 20px 0;
 }
 
@@ -56,4 +64,41 @@ main {
 
 img {
   margin: 40px 8px;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copyright, .message {
+  color: #fff;
+  font-family: Raleway;
+}
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+  color: #f15b31;
+
 }
